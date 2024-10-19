@@ -1,0 +1,120 @@
+[
+ {
+  "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 335,
+    "InstName" : "u_tlp_bar_demux",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_bar_demux"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 364,
+    "InstName" : "u_mem_tlp_dec",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_dec"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 387,
+    "InstName" : "u_cc_ctrl",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cc_ctrl"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 416,
+    "InstName" : "u_tlp_dec",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_dec"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 461,
+    "InstName" : "u_cmd_if",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_cmd_if_mult_chn"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 525,
+    "InstName" : "chn_loop_i[0].u_tlp_cpld_dec",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_cpld_dec"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 553,
+    "InstName" : "chn_loop_i[0].u_tlp_rq",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_rq_ctrl"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 594,
+    "InstName" : "chn_loop_j[0].u_tlp_rc",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_rc_ctrl"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 668,
+    "InstName" : "u_tl_tx",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tl_tx_mux_if"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 237,
+    "InstName" : "u_pll",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+    "InstLine" : 708,
+    "InstName" : "u_pcie_ctrl",
+    "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/serdes.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "SerDes_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/serdes.v",
+      "InstLine" : 577,
+      "InstName" : "PCIE_Controller_Top_inst",
+      "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/pcie_controller/pcie_controller.v",
+      "ModuleLine" : 258,
+      "ModuleName" : "PCIE_Controller_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/pcie_controller/pcie_controller.v",
+        "InstLine" : 407,
+        "InstName" : "u_pcie_controller",
+        "ModuleFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/pcie_controller/pcie_controller.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~pcie_top.PCIE_Controller_Top"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

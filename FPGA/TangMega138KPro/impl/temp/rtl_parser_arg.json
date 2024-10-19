@@ -1,0 +1,41 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/arb/arbiter_encryption.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/include/top_define.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/pcie/tlp_encryption.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/pcie_controller/pcie_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/serdes/serdes.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "src/include"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/TangMega138KPro/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,120 @@
+[
+ {
+  "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/gowin_pll/gowin_pll.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_PLL",
+  "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/gowin_pll/gowin_pll.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_PLL"
+ },
+ {
+  "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 346,
+    "InstName" : "u_tlp_bar_demux",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_bar_demux"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 375,
+    "InstName" : "u_mem_tlp_dec",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_dec"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 398,
+    "InstName" : "u_cc_ctrl",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cc_ctrl"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 427,
+    "InstName" : "u_tlp_dec",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_dec"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 472,
+    "InstName" : "u_cmd_if",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_cmd_if_mult_chn"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 538,
+    "InstName" : "chn_loop_i[0].u_tlp_cpld_dec",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_cpld_dec"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 566,
+    "InstName" : "chn_loop_i[0].u_tlp_rq",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_rq_ctrl"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 607,
+    "InstName" : "chn_loop_j[0].u_tlp_rc",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tlp_rc_ctrl"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 681,
+    "InstName" : "u_tl_tx",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/pcie/tlp_dec_encrypt.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tl_tx_mux_if"
+   },
+   {
+    "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/top.v",
+    "InstLine" : 721,
+    "InstName" : "u_pcie_ctrl",
+    "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/serdes/serdes.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Serdes_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/serdes/serdes.v",
+      "InstLine" : 572,
+      "InstName" : "PCIE_Controller_Top_inst",
+      "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/serdes/pcie_controller/pcie_controller.v",
+      "ModuleLine" : 258,
+      "ModuleName" : "PCIE_Controller_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/serdes/pcie_controller/pcie_controller.v",
+        "InstLine" : 407,
+        "InstName" : "u_pcie_controller",
+        "ModuleFile" : "H:/01_gaoyun/02_gowin5a_138/pcie/pcie_dma_demo_240306/pcie_dma_demo/src/serdes/pcie_controller/pcie_controller.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~pcie_top.PCIE_Controller_Top"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

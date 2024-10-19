@@ -1,0 +1,41 @@
+{
+ "Device" : "GW5AT-138B",
+ "Files" : [
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/arb/arbiter_encryption.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/include/top_define.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/pcie/tlp_dec_encrypt.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/serdes/pcie_controller/pcie_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/serdes/serdes.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/5950X/Documents/GitHub/GoWin138KPCIe/FPGA/ACX750-GW5A138/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
